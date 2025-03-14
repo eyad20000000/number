@@ -1,3 +1,4 @@
+
 import random
 n = random.randint(1,100)
 guess = None
@@ -11,3 +12,6 @@ while guess != n:
         print("You got it!")
         break
 print("Game over!")
+x = input("Enter the number: ")
+print("You entered:", x)
+
